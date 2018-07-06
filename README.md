@@ -24,6 +24,7 @@ A [Rancher](http://rancher.com/rancher/) service that obtains free SSL/TLS certi
   * `DNSimple`
   * `Dyn`
   * `Gandi`
+  * `Linode`
   * `NS1`
   * `Ovh`
   * `Vultr`
@@ -164,6 +165,8 @@ Then make sure that HTTP requests to `domain.com/.well-known/acme-challenge` are
 ### Building the image
 
 `make build && make image`
+
+This project uses [trash](https://github.com/rancher/trash) to manage dependencies.
 
 ### Contributions
 
